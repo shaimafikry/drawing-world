@@ -1,0 +1,141 @@
+body{
+background-color: black;
+font-family:cursive, sans-serif;
+line-height: normal;
+
+
+}
+#thecircle{
+position: sticky;
+background-image: url(https://avatars.mds.yandex.net/get-pdb/788379/c086db83-ad6e-4ca5-abd8-690fe5478135/orig);
+background-position: center;
+width: auto;
+height:800px;
+border-radius: 50%;
+color: white;
+text-align: center;
+padding-top:20px;
+box-shadow:
+inset 10px 10px 10px 10px #888888,
+inset  -10px -10px 10px 10px #888888;
+
+
+
+
+}
+#thecircle h1{
+text-shadow: 5px 2px 4px blue;
+text-transform: capitalize;
+font-size:50px;
+
+
+}
+#theinput{
+position: absolute;
+background-color:grey;
+height: 150px;
+width: 200px;
+border-radius: 50%;
+margin-left: 40px;
+text-align: center;
+padding: 2%;
+box-shadow:
+inset 5px 5px 5px 5px white,
+inset -5px -5px 5px 5px white;
+-webkit-animation: move 1s linear infinite alternate;
+-o-animation: move 1s linear infinite alternate;
+-moz-animation: move 1s linear infinite alternate;
+animation: move 1s linear infinite alternate;
+
+}
+#theinput:hover,#thequate:hover  {
+-webkit-animation-play-state:paused;
+-o-animation-play-state:paused;
+-moz-animation-play-state:paused;
+animation-play-state: paused;
+}
+
+
+#thequate{
+position: absolute;
+background-color: white;
+height:170px;
+width:200px;
+border-radius: 50%;
+margin-left:1000px;
+margin-top: -50px;
+padding:4% 2% 2% 2%;
+text-align:center;
+box-shadow:
+inset 5px 5px 5px 5px #888888,
+inset -5px -5px 5px 5px #888888;
+color: black;
+-webkit-animation: move 1s linear infinite alternate;
+-o-animation: move 1s linear infinite alternate;
+-moz-animation: move 1s linear infinite alternate;
+animation: move 1s linear infinite alternate;
+}
+
+.inp{
+  height:20px ;
+  font-size: 15px;
+  border-radius:50%  ;
+  border-style: hidden;
+  text-align: center;
+
+}
+.butt{
+margin-top: 10px;
+height: 40px;
+font-size: 16px;
+border-radius:60% ;
+background-color:#aab8c2;
+border-style: hidden;
+
+}
+
+#footer{
+  color: black;
+  height:40px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 350px;
+}
+.social:hover{
+  opacity: 0.7;
+}
+.social{
+padding: 10px;
+font-size: 20px;
+width: 60px;
+text-align: center;
+text-decoration: none;
+border-radius: 50%;
+color:white;
+}
+.fa{
+  background-color: #3b5998;
+}
+.twi{
+  background-color: #1da1f2;
+}
+.ins{
+  background-color:#3b5998;
+}
+@-webkit-keyframes move {
+  from {top: 0px;}
+  to  {top: -20px;}
+       }
+@-o-keyframes move{
+  from {top: 0px;}
+  to  {top: -20px;}
+}
+@-moz-keyframes move{
+  from {margin-top:0px;}
+  to  {margin-top: -20px;}
+
+}
+@keyframes move {
+  from {margin-top: 0px;}
+  to  {margin-top: -20px;}
+       }
