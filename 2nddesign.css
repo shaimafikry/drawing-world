@@ -1,0 +1,83 @@
+body{
+background-position:center;
+animation: photo 300s  linear infinite normal;
+
+}
+@keyframes photo{
+0%{ background-image:url("1.jpg");}
+12.5%{background-image:url("2.jpg"); }
+25%{background-image: url("3.jpg"); }
+37.5%{background-image: url("4.jpg"); }
+50%{background-image: url("5.jpg"); }
+62.5%{ background-image: url("6.jpg");}
+75%{ background-image: url("7.jpg");}
+100%{ background-image: url("8.jpg");}
+}
+
+
+
+}
+
+#div1{
+background-color:grey;
+width:250px;
+height: 150px;
+border-radius: 30%;
+opacity:0.7;
+padding-top:30px;
+text-align:center;
+}
+
+.input{
+text-align:center;
+font-size: 20px;
+border-style:none;
+}
+.name{
+width: 200px;
+height:30px;
+border-radius:40%;
+
+
+}
+.butt{
+width:100px;
+border-radius:40%;
+
+}
+#div2{
+background-color:grey;
+width:1350px;
+height:80px;
+border-radius:20%;
+margin-top:360px;
+border-style: hidden;
+opacity:0.7;
+
+}
+footer{
+text-align: center;
+margin-top:20PX;
+}
+.us{
+background-color:#464646;
+width:90px;
+height:60px;
+border-radius:50%;
+}
+.social{
+width: 80px;
+height:70px;
+border-radius:50%;
+color: white;
+font-size: 20px;
+text-decoration: none;
+
+}
+
+.fa{
+background-color: blue;
+}
+.tw{
+background-color: lightskyblue;
+}
